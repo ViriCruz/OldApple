@@ -46,3 +46,98 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* content styles */
+main, footer{
+  width: 90%;
+  margin: 0 auto;
+}
+
+main section{
+  background-image: url("../images/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 100%;
+  color: #fff;
+}
+main section a{
+  color: #fff;
+  text-decoration: none;
+}
+/* content styles */
+
+/* navbar */
+header{
+  padding: 80px 0 40px 0;
+}
+header nav{
+  width: 980px;
+  margin: 0 auto;
+  /* fallback */
+  background-color: #707070;
+  /* linear gradient #666 #5e5e5e #707070 #808080*/
+  background: -webkit-linear-gradient(#666,#5e5e5e,#707070,#808080);
+  background:    -moz-linear-gradient(#666,#5e5e5e,#707070,#808080);
+  background: url("../images/nav-bg.png") no-repeat 50% 50%, linear-gradient(#666,#5e5e5e,#707070,#808080);
+  
+}
+
+section>div{
+  width: 980px;
+  margin: 0 auto;
+
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+header nav ul{
+  display: flex;
+  border:1px solid #666;
+}
+
+header nav ul li{
+  width:102px;
+}
+
+header nav ul li:last-child{
+  width: 130px;
+}
+
+/* navbar */
+
+/* header text */
+section>div h1{
+  font-size: 65px;
+  margin: 15px 0 25px 0;
+}
+
+section>div h2{
+  font-size:35px;
+  margin: 10px 0 15px 0;
+}
+section>div h2 span{
+  display:block;
+}
+
+section>div p{
+  font-size:22px;
+}
+
+/* header text */
+
+/* aside */
+aside{
+  border-top: 2px solid #fff;
+}
+aside ul{
+  display:flex;
+}
+aside ul li:first-child{
+  border:none;
+}
+aside ul li{
+  border-left: 2px solid #fff;
+}
+aside img{
+  width: 358.5px;
+}
