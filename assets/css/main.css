@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -48,6 +50,7 @@ table {
 }
 
 /* content styles */
+
 main, footer{
   width: 90%;
   margin: 0 auto;
@@ -72,14 +75,23 @@ header{
 }
 header nav{
   width: 980px;
+  height: 36px;
+  box-sizing: border-box;
+  border: 1px solid #666;
+  border-radius: 4px;
   margin: 0 auto;
   /* fallback */
   background-color: #707070;
   /* linear gradient #666 #5e5e5e #707070 #808080*/
-  background: -webkit-linear-gradient(#666,#5e5e5e,#707070,#808080);
-  background:    -moz-linear-gradient(#666,#5e5e5e,#707070,#808080);
-  background: url("../images/nav-bg.png") no-repeat 50% 50%, linear-gradient(#666,#5e5e5e,#707070,#808080);
+  background: -webkit-linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,0) 0.97%,rgba(0,0,0,0) 0.05%, rgba(0,0,0,.3)),
+              -webkit-linear-gradient( #808080, #808080 50%, #707070 15%, #666 85% );
+  background:    -moz-linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,0) 0.97%,rgba(0,0,0,0) 0.05%, rgba(0,0,0,.3)),
+                 -moz-linear-gradient( #808080, #808080 50%, #707070 15%, #666 85% );
+  background:     url('../images/nav-bg.png') 50% 50% no-repeat,    
+                  linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,0) 0.97%,rgba(0,0,0,0) 0.05%, rgba(0,0,0,.3)),
+                  linear-gradient( #808080, #808080 50%, #707070 15%, #666 85% );
   
+  /* -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080)); */
 }
 
 section>div{
@@ -87,25 +99,73 @@ section>div{
   margin: 0 auto;
 
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 167px;
 }
 
 header nav ul{
   display: flex;
-  border:1px solid #666;
+  height: 100%;
 }
 
 header nav ul li{
   width:102px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav ul li a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  border-width: 0 2px 0 1px;
+  border-style: solid;
+  -webkit-border-image: url('../images/borderbg.png') 0 2 0 1;
+  
+  
 }
 
 header nav ul li:last-child{
-  width: 130px;
+  width: 158px;
 }
 
+header nav ul li:first-child i{
+  font-size: 25px;
+}
+
+header nav li input{
+  background:none;
+  border-top-width: 2.5px;
+  border-top-color: #58565666;
+  border-left-width:1px;
+  border-left-color: #58565666;
+  border-right-width: 1px;
+  border-right-color: #58565666;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(255, 255, 255, 0.164);
+  border-radius: 12px;
+  width: 100px;
+}
+
+header nav ul li:last-child i{
+  font-size:10px;
+  position: absolute;
+  top: 5px;
+  left: 6px;
+}
+header nav ul li:last-child div{
+  position:relative;
+}
 /* navbar */
 
 /* header text */
+
+main section{
+  font-family: 'Source Sans Pro', sans-serif;
+}
 section>div h1{
   font-size: 65px;
   margin: 15px 0 25px 0;
@@ -121,6 +181,11 @@ section>div h2 span{
 
 section>div p{
   font-size:22px;
+}
+
+.fa-play-circle{
+    background: #ffffff57;
+    border-radius: 50%;
 }
 
 /* header text */
@@ -141,3 +206,30 @@ aside ul li{
 aside img{
   width: 355.5px;
 }
+
+/* footer */
+
+footer>div{
+  display:flex;
+  font: 10px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  color:#6E6E6E;
+}
+footer .site-information{
+  width:50%;
+  box-sizing: border-box;
+}
+
+footer .site-information a{
+  color: #08c;
+  text-decoration:none;
+}
+
+footer .site-information p{
+  padding-top:15px;
+}
+
+footer>div div:first-child {
+  padding-left: 160px;
+  padding-top: 20px;
+}
+
