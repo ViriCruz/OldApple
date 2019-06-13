@@ -13,4 +13,4 @@ Gabriela Cruz Github account [https://github.com/ViriCruz](https://github.com/Vi
 
 ## The Website
 
-The results of this project are presented at the site's webpage [ink for the site](https://viricruz.github.io/OldApple/)
+The results of this project are presented at the site's webpage [link for the site](https://viricruz.github.io/OldApple/)
