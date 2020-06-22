@@ -1,16 +1,35 @@
-# Backgrounds and gradients elements 
+# Clone of the old version of apple.com
+This is a clone of the old version of [www.apple.com](www.apple.com), following the instructions of [The Odin Project](https://www.theodinproject.com/courses/html-and-css/lessons/building-with-backgrounds-and-gradients), implementing techniques of CSS3 to handle the backgrounds and, gradients.
 
-This project was developed by cloning an old version from [www.apple.com](www.apple.com), following the structure of The Odin Project. For this project I implemented many of the techniques of backgrounds and gradients of CSS3.
+<p> 
+<img src="https://i.imgur.com/9I1ouMn.png" alt="old apple" />
+</p>
 
-For achieving this results it was used:
+## Live Version
+[Old Apple version](https://viricruz.github.io/OldApple/)
 
-* HTML
-* CSS3
+## Built With ✨
 
-## Author
+- HTML5
+- CSS3
 
-Gabriela Cruz Github account [https://github.com/ViriCruz](https://github.com/ViriCruz)
+## Install
+Download the files located on the master branch and, open index.html in your browser.
 
-## The Website
+## Usage instructions
+This does not contain any behavior, just enjoy the design and, feel free to use the inspector tool to see the code.
 
-The results of this project are presented at the site's webpage [link for the site](https://viricruz.github.io/OldApple/)
+## How to contribute and participate
+Fork this repo and submit a PR for review and potential merge to the main branch. Feel free to leave feedback. :smile:
+
+
+## Authors
+
+👨‍💻 **Gabriela Cruz**
+
+- Github [@viricruz](https://github.com/ViriCruz/)
+
+- Email me at viridiana.cruz.olivera@gmail.com
+
+- LinkedIn [@viricruz](https://www.linkedin.com/in/viricruz/)
+
